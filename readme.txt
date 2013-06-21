@@ -11,7 +11,8 @@ Create footnotes using a simple, easy-to-read syntax. Based on ‘WP-Footnotes�
 
 == Description ==
 
-"Civil Footnotes is kickass. Works like a charm." —Daniel Ignacio
+# “Civil Footnotes is kickass. Works like a charm.” #  
+—Daniel Ignacio
 
 Civil Footnotes is a WordPress plugin for adding footnotes on your blog. Civil Footnotes parses your posts for notes wrapped in ((double parenthesis)), which are then reformatted as Daring Fireball-style footnotes.
 
