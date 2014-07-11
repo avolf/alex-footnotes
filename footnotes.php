@@ -11,9 +11,9 @@ Author: <a href="http://www.alexandervolf.com">Alexander Volf</a>
 // “Display the footnotes” section near the end of this file.
 
 // Some important constants
-define('WP_FOOTNOTES_OPEN', " ((");
-define('WP_FOOTNOTES_CLOSE', "))");
-define('WP_FOOTNOTES_VERSION', '1.3.1');
+define('WP_FOOTNOTES_OPEN', '<fn>');
+define('WP_FOOTNOTES_CLOSE', '</fn>');
+define('WP_FOOTNOTES_VERSION', '0.1');
 
 // Instantiate the class 
 $alex_wp_footnotes = new alex_wp_footnotes();
