@@ -101,7 +101,7 @@ class alex_wp_footnotes {
 			$id_id = "rf".$id_num."-".$post->ID;
 			$id_href = ( ($use_full_link) ? get_permalink($post->ID) : '' ) . "#fn".$id_num."-".$post->ID;
 			$id_title = str_replace('"', "&quot;", htmlentities(html_entity_decode(strip_tags($value['text']), ENT_QUOTES, 'UTF-8'), ENT_QUOTES, 'UTF-8'));
-			$id_replace = '<sup id="'.$id_id.'"><a href="'.$id_href.'" title="'.$id_title.'" rel="footnote">'.$id_num.'</a></sup>';
+			$id_replace = '<sup id="'.$id_id.'"><a href="'.$id_href.'" title="'.$id_title.'" rel="footnote">'.$id_num.')</a></sup>';
 			if ($display) $data = substr_replace($data, $id_replace, strpos($data,$value[0]),strlen($value[0]));
 			else $data = substr_replace($data, '', strpos($data,$value[0]),strlen($value[0]));
 	
