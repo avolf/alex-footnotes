@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Civil Footnotes
-Plugin URI: https://defomicron.net/projects/civil_footnotes
-Version: 1.3.1
-Description: Parses and displays footnotes. Based on <a href="http://elvery.net/drzax/wordpress-footnotes-plugin">WP-Foonotes</a> by <a href="http://elvery.net">Simon Elvery</a>, and the footnote syntax pioneered by <a href="http://daringfireball.net/2005/07/footnotes">John Gruber</a>.
-Author: <a href="https://defomicron.net/colophon">Austin Sweeney</a>
+Plugin Name: Alex Footnotes
+Plugin URI: 
+Version: 0.1
+Description: Parses and displays footnotes. Based on <a href="https://defomicron.net/projects/civil_footnotes">Civil Footnotes</a> by <a href="https://defomicron.net/colophon">Austin Sweeney</a>.
+Author: <a href="http://www.alexandervolf.com">Alexander Volf</a>
 */
 
 // If you’d like to edit the output, scroll down to the
@@ -16,17 +16,17 @@ define('WP_FOOTNOTES_CLOSE', "))");
 define('WP_FOOTNOTES_VERSION', '1.3.1');
 
 // Instantiate the class 
-$swas_wp_footnotes = new swas_wp_footnotes();
+$alex_wp_footnotes = new alex_wp_footnotes();
 
 // Encapsulate in a class
-class swas_wp_footnotes {
+class alex_wp_footnotes {
 	var $current_options;
 	var $default_options;
 	
 	/**
 	 * Constructor.
 	 */
-	function swas_wp_footnotes() {		
+	function alex_wp_footnotes() {		
 	
 		// Define the implemented option styles		
 		$this->styles = array(
