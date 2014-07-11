@@ -16,7 +16,7 @@ define('WP_FOOTNOTES_CLOSE', '</fn>');
 define('WP_FOOTNOTES_VERSION', '0.1');
 
 // Instantiate the class 
-$alex_wp_footnotes = new alex_wp_footnotes();
+$swas_wp_footnotes = new alex_wp_footnotes();
 
 // Encapsulate in a class
 class alex_wp_footnotes {
@@ -134,6 +134,7 @@ class alex_wp_footnotes {
 		}
 	}
 	
+	// function to upgrade posts, when the close/open tag is changed
 	function upgrade_post($data){
 		$data = str_replace('<footnote>',WP_FOOTNOTES_OPEN,$data);
 		$data = str_replace('</footnote>',WP_FOOTNOTES_CLOSE,$data);
